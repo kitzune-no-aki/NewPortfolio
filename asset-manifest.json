@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/NewPortfolio/static/css/main.d1b430af.css",
-    "main.js": "/NewPortfolio/static/js/main.b20a6ae3.js",
-    "static/media/Lebenslauf.jpeg": "/NewPortfolio/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
-    "static/media/backgroundFirstPortfolio.png": "/NewPortfolio/static/media/backgroundFirstPortfolio.f425a4edb22b2fad3557.png",
-    "static/media/rilakuma.jpg": "/NewPortfolio/static/media/rilakuma.67de6ce98298bb0bbe3c.jpg",
-    "static/media/backgroundPokemon.png": "/NewPortfolio/static/media/backgroundPokemon.112361ccd83325f604bc.png",
-    "static/media/backgroundCandyMuseum.png": "/NewPortfolio/static/media/backgroundCandyMuseum.0c3fed88acfe1eadd9e4.png",
-    "static/media/backgroundScoreKeeper.png": "/NewPortfolio/static/media/backgroundScoreKeeper.0dacfab299d13dde4734.png",
-    "static/media/baer.jpeg": "/NewPortfolio/static/media/baer.9ee1ef1caaa06a50690e.jpeg",
-    "static/media/backgroundClickMe.png": "/NewPortfolio/static/media/backgroundClickMe.3c0ea4740698f983494d.png",
-    "static/media/backgroundRandomColor.png": "/NewPortfolio/static/media/backgroundRandomColor.6be92ab0500ba2174cd6.png",
-    "index.html": "/NewPortfolio/index.html",
-    "main.d1b430af.css.map": "/NewPortfolio/static/css/main.d1b430af.css.map",
-    "main.b20a6ae3.js.map": "/NewPortfolio/static/js/main.b20a6ae3.js.map"
+    "main.css": "/static/css/main.8efd2ff4.css",
+    "main.js": "/static/js/main.ef9d329b.js",
+    "static/media/Lebenslauf.jpeg": "/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
+    "static/media/backgroundFirstPortfolio.png": "/static/media/backgroundFirstPortfolio.f425a4edb22b2fad3557.png",
+    "static/media/rilakuma.jpg": "/static/media/rilakuma.67de6ce98298bb0bbe3c.jpg",
+    "static/media/backgroundPokemon.png": "/static/media/backgroundPokemon.112361ccd83325f604bc.png",
+    "static/media/backgroundCandyMuseum.png": "/static/media/backgroundCandyMuseum.0c3fed88acfe1eadd9e4.png",
+    "static/media/backgroundScoreKeeper.png": "/static/media/backgroundScoreKeeper.0dacfab299d13dde4734.png",
+    "static/media/baer.jpeg": "/static/media/baer.9ee1ef1caaa06a50690e.jpeg",
+    "static/media/backgroundClickMe.png": "/static/media/backgroundClickMe.3c0ea4740698f983494d.png",
+    "static/media/backgroundRandomColor.png": "/static/media/backgroundRandomColor.6be92ab0500ba2174cd6.png",
+    "index.html": "/index.html",
+    "main.8efd2ff4.css.map": "/static/css/main.8efd2ff4.css.map",
+    "main.ef9d329b.js.map": "/static/js/main.ef9d329b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1b430af.css",
-    "static/js/main.b20a6ae3.js"
+    "static/css/main.8efd2ff4.css",
+    "static/js/main.ef9d329b.js"
   ]
 }
