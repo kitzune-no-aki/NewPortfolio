@@ -1,0 +1,71 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    gap: 1em;
+}
+
+.box .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    height: 15em;
+    margin: 3em;
+    padding: 1em;
+    border: solid #cad2c5;
+    border-radius: 5%;
+}
+
+.box .imgSkill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSkill img {
+    width: 2em;
+    height: 2em;
+}
+
+p{
+    text-align: center;
+    color: dimgray;
+}
+
+.box1{
+    background-image: url("../../images/projects/backgroundCandyMuseum.png") ;
+    background-size: 35em;
+}
+
+.box2{
+    background-image: url("../../images/projects/backgroundClickMe.png") ;
+    background-size: 35em;
+}
+
+.box3{
+    background-image: url("../../images/projects/backgroundScoreKeeper.png") ;
+    background-size: 35em;
+}
+
+.box4{
+    background-image: url("../../images/projects/backgroundRandomColor.png") ;
+    background-size: 35em;
+}
+
+.box5{
+    background-image: url("../../images/projects/backgroundPokemon.png") ;
+    background-size: 35em;
+}
+
+.box6{
+    background-image: url("../../images/projects/backgroundFirstPortfolio.png") ;
+    background-size: 35em;
+}
+
+.bla{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}

@@ -3,6 +3,7 @@ import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaRegTimesCircle} from 'react-icons/fa'
 import './navbar.css'
 import Dino from "../../images/Favorites/icons8-dinosaurier-50.png"
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
 
@@ -14,13 +15,13 @@ const Navbar = () => {
             <div className='container'>
                 <div className='left'>
                     <img src={Dino}/>
-                    <h2><span>Miriam</span>Pech</h2>
+                    <h2>Miriam<span>Pech</span></h2>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Skills</a></li>
-                    <li><a href='#'>Projects</a></li>
-                    <li><a href='#'>Me</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/me">Me</Link></li>
                 </ul>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaRegTimesCircle className='icon' />) : (<HiOutlineMenuAlt4 className='icon' />)}

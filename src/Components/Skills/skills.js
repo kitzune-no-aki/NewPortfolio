@@ -1,38 +1,55 @@
 import React from 'react';
 import Navbar from "../Navbar/navbar";
 import Typewriter from "typewriter-effect";
+import './skills.css'
+import Footer from "../Footer/footer";
 import Css from '../../images/skillsIcons/icons8-css3-50-2.png'
 import Figma from '../../images/skillsIcons/icons8-figma-50-2.png'
 import Github from '../../images/skillsIcons/icons8-github-50-2.png'
 import Html from '../../images/skillsIcons/icons8-html-5-50-2.png'
 import Javascript from '../../images/skillsIcons/icons8-javascript-50-2.png'
 import ReactIcon from '../../images/skillsIcons/icons8-react-native-50.png'
-import Sass from '../../images/skillsIcons/icons8-sass-50-2.png'
 import Graduation from '../../images/skillsIcons/icons8-graduation-cap-48.png'
+import Bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
+import Photo from '../../images/skillsIcons/icons8-adobe-photoshop-100.png'
+import Adobe from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
 
 function Skills() {
     return(
-        <div>
+        <div className='bla'>
             <Navbar/>
-            <h2>Skills</h2>
-            <h3>Developement</h3>
-            <img src={Html}/>
-            <img src={Css}/>
-            <img src={Javascript}/>
-            <img src={ReactIcon}/>
-            <img src={Github}/>
-            <h3>
-                    <img src={Graduation}/>
-                    B.Sc. Softwareentwicklung
-            </h3>
-            <div>Wirtschaftsethik</div>
-            <div>BWL Einführung und Grundlagen</div>
-            <div>BWL Vertiefung</div>
-            <div>Mobile Software Engineering am Beispiel der Android- Plattform</div>
-            <div>Computer Training</div>
-            <div>Einführung in das wissenschaftliche Arbeiten</div>
-            <div>Kollaboratives Arbeiten</div>
-            <h2>Coming soon
+            <h2 className='headerSkills'>Skills</h2>
+            <div className='skills'>
+                <div className='skillsLeft'>
+                    <h3>Development</h3>
+                    <div className='images'>
+                        <img title='html' alt='html' src={Html}/>
+                        <img title='CSS' alt='CSS' src={Css}/>
+                        <img title='JavaScript' alt='JavaScript' src={Javascript}/>
+                        <img title='React' alt='React' src={ReactIcon}/>
+                        <a href='https://github.com/kitzune-no-aki/Portfolio'>
+                            <img title='Github' alt='Github' src={Github}/>
+                        </a>
+                        <img title='bootstrap' alt='Bootstrap' src={Bootstrap}/>
+                    </div>
+                </div>
+                <div className='skillsRight'>
+                    <h3>
+                        <img src={Graduation}/>
+                        B.Sc. Softwareentwicklung
+                    </h3>
+                    <div className='module'>
+                        <div>Wirtschaftsethik</div>
+                        <div>BWL Einführung und Grundlagen</div>
+                        <div>BWL Vertiefung</div>
+                        <div>Mobile Software Engineering am Beispiel der Android- Plattform</div>
+                        <div>Computer Training</div>
+                        <div>Einführung in das wissenschaftliche Arbeiten</div>
+                        <div>Kollaboratives Arbeiten</div>
+                    </div>
+                </div>
+            </div>
+            <h2 className='headerSkills'>Coming soon
                 <span>
                 <Typewriter
                     options={{
@@ -44,15 +61,27 @@ function Skills() {
                 />
             </span>
             </h2>
-            <h3>Developement</h3>
-            <img src={Figma}/>
-            <img src={Sass}/>
-            <h3>
-                    <img src={Graduation}/>
-                    B.Sc. Softwareentwicklung
-            </h3>
-            <div>Gestaltung und Ergonomie von User Interfaces</div>
-            <div>Cloud Programming</div>
+            <div className='comingSoon'>
+                <div className='skillsLeft'>
+                    <h3>Development</h3>
+                    <div className='images'>
+                        <img title='Figma' alt='Figma' src={Figma}/>
+                        <img title='Photoshop' alt='Photoshop' src={Photo}/>
+                        <img title='Adobe Illustrator' alt='Adobe Illustrator' src={Adobe}/>
+                    </div>
+                </div>
+                <div className='skillsRight'>
+                    <h3>
+                        <img alt='Barett oder auch Bachelorhut' src={Graduation}/>
+                        B.Sc. Softwareentwicklung
+                    </h3>
+                    <div className='module'>
+                        <div>Gestaltung und Ergonomie von User Interfaces</div>
+                        <div>Grundlagen der objektorientierten Programmierung mit Java</div>
+                    </div>
+                </div>
+            </div>
+            <Footer></Footer>
         </div>
     )
 }

@@ -1,0 +1,104 @@
+.headerSkills {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+    margin-bottom: 0;
+    margin-right: 3em;
+    padding-bottom: 0.2em;
+    padding-left: 0.1em;
+    border-bottom: solid #52796f;
+    color: #2f3e46;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f3e46;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.comingSoon{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.skillsLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 1em;
+    border: solid #cad2c5;
+    border-radius: 2%;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img{
+    width: 5em;
+    height: 5em;
+    margin: 3em;
+   }
+
+.skillsRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 1em;
+    border: solid #cad2c5;
+    border-radius: 2%;
+}
+
+h3 img{
+    margin-top: 2em;
+    margin-right: 0.5em;
+}
+
+.module div{
+    width: 10em;
+    height: 5em;
+    margin: 1em;
+    padding: 0.2em;
+    border: solid #cad2c5;
+    border-radius: 5%;
+    background: #E9EFEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #52796f;
+}
+
+.module{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bla{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}

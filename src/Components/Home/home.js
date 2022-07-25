@@ -1,18 +1,24 @@
 import React from 'react';
 import "./home.css"
-import Mars from "../../images/mars.jpg";
+import Rilakuma from '../../images/me/rilakuma.jpg'
 import Typewriter from "typewriter-effect";
+import {Link} from 'react-router-dom'
 
 function Home() {
     return(
         <div className="wrapper">
             <div>
                 <div className="mainNavbar">
-                    <img alt="Sailor Mars" src={Mars}/>
-                    <div className="nav home">Home</div>
-                    <div className="nav skills">Skills</div>
-                    <div className="nav projects">Projects</div>
-                    <div className="nav me">Me</div>
+                    <img alt="Foto von mir auf einer Bank mit Rilakuma" src={Rilakuma}/>
+                    <Link to="/skills">
+                        <div className="nav skillsLink">Skills</div>
+                    </Link>
+                    <Link to="/projects">
+                        <div className="nav projectsLink">Projects</div>
+                    </Link>
+                    <Link to="/me">
+                        <div className="nav meLink">Me</div>
+                    </Link>
                 </div>
             </div>
             <div className="header">
@@ -24,7 +30,7 @@ function Home() {
                     <span>
                         <Typewriter
                             options={{
-                                strings: ['Developer', 'Optimist', 'Creator','Learner'],
+                                strings: ['Developer', 'Optimist','Creative', 'Curious'],
                                 autoStart: true,
                                 loop: true,
                                 pauseFor: 2000,

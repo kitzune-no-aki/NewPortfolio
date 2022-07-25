@@ -1,6 +1,7 @@
 .wrapper{
     display: grid;
     grid-template-columns: 2fr 2fr;
+    color: #2f3e46;
 }
 
 h1{
@@ -20,51 +21,49 @@ h2{
     justify-content: center;
 }
 
-span{
+.header span{
     margin-left: 0.2em;
+    color: #52796f;
 }
 
 .mainNavbar {
     display: flex;
 }
 
-img {
+.mainNavbar img {
     display: flex;
     border-radius: 50%;
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
     margin-top: 2em;
     margin-left: 2em;
+    border: solid #cad2c5;
 }
 
 .nav {
     display: flex;
     border-radius: 50%;
     margin: 1em;
-    border: solid red;
-    width: 4em;
-    height: 4em;
+    border: solid #cad2c5;
+    width: 6em;
+    height: 6em;
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
+    background-color: #E9EFEB;
 }
 
-.home{
-    margin-top: 3em;
-    margin-right: 0;
+.skillsLink{
+    margin-top: 4.5em;
+    margin-left: 1.5em;
 }
 
-.skills{
-    margin-top: 10em;
-    margin-left: -1.5em;
+.projectsLink{
+    margin-top: 15em;
+    margin-left: -7em;
 }
 
-.projects{
-    margin-top: 17em;
-    margin-left: -9em;
-}
-
-.me{
-    margin-top: 22em;
-    margin-left: -12em;
+.meLink{
+    margin-top: 25em;
+    margin-left: -13em;
 }
