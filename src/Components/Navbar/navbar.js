@@ -14,8 +14,10 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='container'>
                 <div className='left'>
-                    <img src={Dino}/>
-                    <h2>Miriam<span>Pech</span></h2>
+                    <a href='https://de.wikipedia.org/wiki/Tyrannosaurus' target="_blank" >
+                        <img src={Dino}/>
+                    </a>
+                    <Link to="/"><h2>Miriam<span>Pech</span></h2></Link>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to="/">Home</Link></li>

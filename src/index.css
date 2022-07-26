@@ -7,6 +7,9 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5ebe0;
+  background-color: #DEE4DE;
 }
 
+*{
+  box-sizing: border-box;
+}

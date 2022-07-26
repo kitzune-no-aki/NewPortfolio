@@ -25,7 +25,7 @@ function Home() {
                 <h1>
                     Miriam Pech
                 </h1>
-                <h2>
+                <h3>
                     I am a
                     <span>
                         <Typewriter
@@ -38,7 +38,7 @@ function Home() {
                             }}
                         />
                     </span>
-                </h2>
+                </h3>
             </div>
         </div>
     )

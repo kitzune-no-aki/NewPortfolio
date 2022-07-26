@@ -2,11 +2,11 @@
     display: flex;
     justify-content: left;
     margin-left: 1em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
     margin-right: 3em;
     padding-bottom: 0.2em;
     padding-left: 0.1em;
-    border-bottom: solid #52796f;
+    border-bottom: solid #5AA652;
     color: #2f3e46;
 }
 
@@ -18,29 +18,27 @@ h3{
 }
 
 .skills{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    display: flex;
     margin-top: 1em;
     margin-left: 1.5em;
 }
 
 .comingSoon{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    display: flex;
     margin-top: 1em;
     margin-left: 1.5em;
 }
 
-.skillsLeft{
+.skillsBox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 2em;
     margin-right: 2em;
     margin-left: 1em;
-    border: solid #cad2c5;
-    border-radius: 2%;
+    border: solid #293228;
+    border-radius: 1%;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
 .images{
@@ -52,25 +50,12 @@ h3{
 }
 
 .images img{
-    width: 5em;
-    height: 5em;
+    width: 3em;
+    height: 3em;
     margin: 3em;
-   }
-
-.skillsRight{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
-    margin-right: 2em;
-    margin-left: 1em;
-    border: solid #cad2c5;
-    border-radius: 2%;
 }
 
 h3 img{
-    margin-top: 2em;
     margin-right: 0.5em;
 }
 
@@ -79,14 +64,14 @@ h3 img{
     height: 5em;
     margin: 1em;
     padding: 0.2em;
-    border: solid #cad2c5;
+    border: solid #293228;
     border-radius: 5%;
     background: #E9EFEB;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #52796f;
+    color: #293228;
 }
 
 .module{
@@ -96,9 +81,17 @@ h3 img{
     justify-content: center;
 }
 
-.bla{
+.skillsContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+}
+
+.currentSkillsContainer,.comingSkillsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
 }

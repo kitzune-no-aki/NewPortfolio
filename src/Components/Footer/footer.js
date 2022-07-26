@@ -9,14 +9,14 @@ function Footer(){
         <div className='foot'>
             <div className='verweise'>
                 <div className='imgFooter'>
-                    <a href='https://github.com/kitzune-no-aki'>
+                    <a href='https://github.com/kitzune-no-aki' target="_blank" >
                         <img alt='Icon Github' src={Git}/>
                     </a>
                     <a href='mailto:kontakt@mpech.dev'>
                         <img alt='Mailsymbol' src={Mail}/>
                     </a>
                 </div>
-                <div>icons from: <a href={'https://icons8.com/'}>https://icons8.com/</a></div>
+                <div>icons from: <a href='https://icons8.com/' target="_blank" >https://icons8.com/</a></div>
             </div>
         </div>
     )

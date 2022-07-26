@@ -1,7 +1,10 @@
 .wrapper{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    color: #2f3e46;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+    align-items: center;
+    color: #293228;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -16,14 +19,9 @@ h2{
     align-items: center;
 }
 
-.wrapper{
-    align-items: center;
-    justify-content: center;
-}
-
 .header span{
     margin-left: 0.2em;
-    color: #52796f;
+    color: #5AA652;
 }
 
 .mainNavbar {
@@ -37,14 +35,14 @@ h2{
     width: 20em;
     margin-top: 2em;
     margin-left: 2em;
-    border: solid #cad2c5;
+    border: solid #293228;
 }
 
 .nav {
     display: flex;
     border-radius: 50%;
     margin: 1em;
-    border: solid #cad2c5;
+    border: solid #293228;
     width: 6em;
     height: 6em;
     justify-content: center;
@@ -66,4 +64,9 @@ h2{
 .meLink{
     margin-top: 25em;
     margin-left: -13em;
+}
+
+.mainNavbar .nav:hover{
+    width: 6.5em;
+    height: 6.5em;
 }

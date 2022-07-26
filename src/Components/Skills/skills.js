@@ -16,24 +16,30 @@ import Adobe from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
 
 function Skills() {
     return(
-        <div className='bla'>
-            <Navbar/>
+
+        <div className='skillsContainer'>
+
+            <Navbar></Navbar>
+
             <h2 className='headerSkills'>Skills</h2>
-            <div className='skills'>
-                <div className='skillsLeft'>
+
+            <div className="currentSkillsContainer">
+
+                <div className='skillsBox'>
                     <h3>Development</h3>
                     <div className='images'>
                         <img title='html' alt='html' src={Html}/>
                         <img title='CSS' alt='CSS' src={Css}/>
                         <img title='JavaScript' alt='JavaScript' src={Javascript}/>
                         <img title='React' alt='React' src={ReactIcon}/>
-                        <a href='https://github.com/kitzune-no-aki/Portfolio'>
+                        <a href='https://github.com/kitzune-no-aki' target="_blank" >
                             <img title='Github' alt='Github' src={Github}/>
                         </a>
                         <img title='bootstrap' alt='Bootstrap' src={Bootstrap}/>
                     </div>
                 </div>
-                <div className='skillsRight'>
+
+                <div className='skillsBox'>
                     <h3>
                         <img src={Graduation}/>
                         B.Sc. Softwareentwicklung
@@ -49,20 +55,26 @@ function Skills() {
                     </div>
                 </div>
             </div>
+
+
             <h2 className='headerSkills'>Coming soon
                 <span>
-                <Typewriter
-                    options={{
-                        strings: ['...'],
-                        autoStart: true,
-                        loop: true,
-                        cursor: '.',
-                    }}
-                />
-            </span>
+                        <Typewriter
+                            options={{
+                                strings: ['...'],
+                                autoStart: true,
+                                loop: true,
+                                cursor: '.',
+                            }}
+                        />
+                    </span>
             </h2>
-            <div className='comingSoon'>
-                <div className='skillsLeft'>
+
+
+            <div className="comingSkillsContainer">
+
+
+                <div className='skillsBox'>
                     <h3>Development</h3>
                     <div className='images'>
                         <img title='Figma' alt='Figma' src={Figma}/>
@@ -70,7 +82,8 @@ function Skills() {
                         <img title='Adobe Illustrator' alt='Adobe Illustrator' src={Adobe}/>
                     </div>
                 </div>
-                <div className='skillsRight'>
+
+                <div className='skillsBox'>
                     <h3>
                         <img alt='Barett oder auch Bachelorhut' src={Graduation}/>
                         B.Sc. Softwareentwicklung
@@ -81,6 +94,8 @@ function Skills() {
                     </div>
                 </div>
             </div>
+
+
             <Footer></Footer>
         </div>
     )

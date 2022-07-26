@@ -1,54 +1,80 @@
-.bodyMe{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin: 5em;
-    text-align: center;
-    gap:5em;
-    color: #52796f;
+.meContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-.bodyMe h3{
-    color: #2f3e46;
+.lebenslaufContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5em;
+    margin: 5em;
+    color: #293228;
+}
+
+.baerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5em;
+    margin: 5em;
+    color: #293228;
 }
 
 .baer{
     width: 20em;
     height: 25em;
     border-radius: 10%;
-    margin-left: 8em;
+    margin: 5em;
  }
+
+@media screen and (max-width:940px) {
+    .baer{
+        display: none;
+    }
+}
 
 .lebenslauf{
     width: 20em;
     height: 25em;
     border-radius: 10%;
-    margin-left: 8em;
+    margin: 5em;
 }
 
-.bla{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.textLebenslauf{
     text-align: center;
     width: 30em;
-    height: 25em;
-    border: solid #cad2c5;
+    border: solid #293228;
     border-radius: 5%;
-    padding: 1em 3em;
+    padding: 2em 3em;
     background-color: #E9EFEB;
+    margin: 5em;
+}
+
+.textBaer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30em;
+    border: solid #293228;
+    border-radius: 5%;
+    padding: 5em 3em;
+    background-color: #E9EFEB;
+    margin: 5em;
 }
 
 .Icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 1em;
     align-items: center;
     margin-top: 2em;
 }

@@ -14,10 +14,11 @@ import './me.css'
 
 function Me(){
     return(
-        <div className='bla'>
+        <div className='meContainer'>
             <Navbar></Navbar>
-            <div className='bodyMe'>
-                <div className='text'>
+
+            <div className='lebenslaufContainer'>
+                <div className='textLebenslauf'>
                     <h3>Hi, ich bin Miriam</h3>
                     <p>Ich bin wissbegierig, lernfreudig, immer gut gelaunt und bis vor kurzem war ich erfolgreich
                         im sozialen Bereich tätig. Vergangenen Winter habe ich mich dazu entschlossen einen neuen Weg
@@ -28,8 +29,10 @@ function Me(){
                     </p>
                 </div>
                 <img className='lebenslauf' alt='Frauenbild' src={Lebenslauf}/>
+            </div>
+            <div className='baerContainer'>
                 <img className='baer' alt='Person vor Riesenbären von line' src={Baer}/>
-                <div className='text'>
+                <div className='textBaer'>
                     Wenn ich mal nicht am coden bin, verbringe ich meine Zeit gerne mit zeichnen,
                     meinen Huskys,
                     Sport/ Fitness,
