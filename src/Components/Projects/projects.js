@@ -96,6 +96,17 @@ function Projects(){
                         <img alt='java script' src={java}/>
                     </div>
                 </div>
+                <div className='project box7'>
+                    <a href='https://kitzune-no-aki.github.io/weatherapp/' target='_blank'>
+                        <p>Schlichte Wetter App, die die Temperatur und weitere Parameter einer gewünschten Stadt anzeigt.
+                            Dabei wird im Hintergrund ein Bild abgebildet von der aktuellen Wetterbeschreibung. </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='html' src={html}/>
+                        <img alt='css' src={css}/>
+                        <img alt='java script' src={java}/>
+                    </div>
+                </div>
             </div>
             <Footer></Footer>
         </div>

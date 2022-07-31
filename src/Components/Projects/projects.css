@@ -67,6 +67,11 @@ p{
     background-size: 35em;
 }
 
+.box7{
+    background-image: url("../../images/projects/Screenshot 2022-07-31 at 19.51.35.png") ;
+    background-size: 35em;
+}
+
 .skillsContainer{
     display: flex;
     flex-direction: column;
