@@ -52,6 +52,7 @@ function Skills() {
                         <div>Computer Training</div>
                         <div>Einführung in das wissenschaftliche Arbeiten</div>
                         <div>Kollaboratives Arbeiten</div>
+                        <div>Gestaltung und Ergonomie von User Interfaces</div>
                     </div>
                 </div>
             </div>
@@ -89,8 +90,8 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>Gestaltung und Ergonomie von User Interfaces</div>
-                        <div>Grundlagen der objektorientierten Programmierung mit Java</div>
+                        <div>Einführung in die Programmierung mit Python</div>
+                        <div>Projekt Mobile Software Engineering</div>
                     </div>
                 </div>
             </div>
