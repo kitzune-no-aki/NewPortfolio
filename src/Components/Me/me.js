@@ -24,8 +24,8 @@ function Me(){
                         im sozialen Bereich tätig. Vergangenen Winter habe ich mich dazu entschlossen einen neuen Weg
                         einzuschlagen und angefangen das coden zu lernen. Jede freie Minute habe ich vor dem Computer
                         verbracht und nun im Sommer auch das Fernstudium Softwareentwicklung B. Sc. begonnen.
-                        Mein Fokus liegt im Frontend, im Designen und Gestalten. So freue ich mich schon darauf mehr
-                        über UI und UX, Figma, Photoshop und mehr zu lernen und das Wissen anzuwenden.
+                        Mein Fokus liegt im Frontend, im Designen und Gestalten, aber aktuell baue ich mein Wissen
+                        zum Backend aus.
                     </p>
                 </div>
                 <img className='lebenslauf' alt='Frauenbild' src={Lebenslauf}/>
@@ -37,7 +37,7 @@ function Me(){
                     meinen Huskys,
                     Sport/ Fitness,
                     gerne auch mal etwas ruhiger mit Yoga,
-                    Animes schauen oder Mangas lesen,
+                    Animes schauen, Mangas lesen,
                     oder auch mit Videospiele spielen.
                     <div className='Icons'>
                         <img alt='zeichnen' src={Zeichnen}/>

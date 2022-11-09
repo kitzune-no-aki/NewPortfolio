@@ -11,8 +11,8 @@ import Javascript from '../../images/skillsIcons/icons8-javascript-50-2.png'
 import ReactIcon from '../../images/skillsIcons/icons8-react-native-50.png'
 import Graduation from '../../images/skillsIcons/icons8-graduation-cap-48.png'
 import Bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
-import Photo from '../../images/skillsIcons/icons8-adobe-photoshop-100.png'
-import Adobe from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
+import nodelogo from '../../images/skillsIcons/icons8-nodejs-48.png'
+import Python from '../../images/skillsIcons/icons8-python-64.png'
 
 function Skills() {
     return(
@@ -53,6 +53,8 @@ function Skills() {
                         <div>Einführung in das wissenschaftliche Arbeiten</div>
                         <div>Kollaboratives Arbeiten</div>
                         <div>Gestaltung und Ergonomie von User Interfaces</div>
+                        <div>Einführung in die Programmierung mit Python</div>
+                        <div>Projekt Mobile Software Engineering</div>
                     </div>
                 </div>
             </div>
@@ -78,9 +80,9 @@ function Skills() {
                 <div className='skillsBox'>
                     <h3>Development</h3>
                     <div className='images'>
+                        <img title='Node' alt='Node' src={nodelogo}/>
+                        <img title='Python' alt='Python' src={Python}/>
                         <img title='Figma' alt='Figma' src={Figma}/>
-                        <img title='Photoshop' alt='Photoshop' src={Photo}/>
-                        <img title='Adobe Illustrator' alt='Adobe Illustrator' src={Adobe}/>
                     </div>
                 </div>
 
@@ -90,8 +92,8 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>Einführung in die Programmierung mit Python</div>
-                        <div>Projekt Mobile Software Engineering</div>
+                        <div>Datenmodellierung und Datenbanksysteme</div>
+                        <div>Algorithmen, Datenstrukturen u. Programmierspr.</div>
                     </div>
                 </div>
             </div>
