@@ -1,0 +1,51 @@
+.case1 {
+    background-image: url("../../images/portfolioImg/Pinguin (1).svg");
+    background-size: 30em;
+}
+.case2 {
+    background-image: url("../../images/portfolioImg/dino2.svg");
+    background-size: 30em;
+}
+
+.case3 {
+    background-image: url("../../images/portfolioImg/MP.svg");
+    background-size: 30em;
+}
+
+.case4 {
+    background-image: url("../../images/skillsIcons/icons8-figma-50-2.png");
+    background-size: 8em;
+    background-position: center;
+}
+
+.case4 #figmaScreen{
+    width: 28em;
+    height: 28em;
+}
+
+
+.case .portfolio img {
+    width: 5em;
+    height: 5em;
+}
+
+.case .portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    width: 30em;
+    height: 20em;
+    margin: 3em;
+    padding: 1em;
+    border: solid #293228;
+    border-radius: 5%;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

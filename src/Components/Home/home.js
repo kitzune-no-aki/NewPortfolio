@@ -16,6 +16,9 @@ function Home() {
                     <Link to="/projects">
                         <div className="nav projectsLink">Projects</div>
                     </Link>
+                    <Link to="/portfolio">
+                        <div className="nav portfolioLink">Portfolio</div>
+                    </Link>
                     <Link to="/me">
                         <div className="nav meLink">Me</div>
                     </Link>
@@ -30,7 +33,7 @@ function Home() {
                     <span>
                         <Typewriter
                             options={{
-                                strings: ['Developer', 'Optimist','Creative', 'Curious'],
+                                strings: ['Developer', 'Designer','Creative', 'Curious', 'Optimist'],
                                 autoStart: true,
                                 loop: true,
                                 pauseFor: 2000,

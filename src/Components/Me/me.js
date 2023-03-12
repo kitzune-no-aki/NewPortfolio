@@ -21,11 +21,11 @@ function Me(){
                 <div className='textLebenslauf'>
                     <h3>Hi, ich bin Miriam</h3>
                     <p>Ich bin wissbegierig, lernfreudig, immer gut gelaunt und bis vor kurzem war ich erfolgreich
-                        im sozialen Bereich tätig. Vergangenen Winter habe ich mich dazu entschlossen einen neuen Weg
-                        einzuschlagen und angefangen das coden zu lernen. Jede freie Minute habe ich vor dem Computer
-                        verbracht und nun im Sommer auch das Fernstudium Softwareentwicklung B. Sc. begonnen.
-                        Mein Fokus liegt im Frontend, im Designen und Gestalten, aber aktuell baue ich mein Wissen
-                        zum Backend aus.
+                        im sozialen Bereich tätig. Vergangenen Sommer habe ich dann nach reiflicher Überlegung meinen Werdegang
+                        in der IT begonnen. Ich habe den Studiengang B. Sc. Softwareentwicklung begonnen und eine Tätigkeit als
+                        wissenschaftliche Mitarbeiterin im technischen Support begonnen.
+                        Neben dem Studium erweiter ich stetig mein Wissen rund ums Thema Designen und Gestalten. Sei es dabei
+                        das Frontend zu gestalten, oder auch alles rund um UI und UX.
                     </p>
                 </div>
                 <img className='lebenslauf' alt='Frauenbild' src={Lebenslauf}/>
@@ -33,10 +33,10 @@ function Me(){
             <div className='baerContainer'>
                 <img className='baer' alt='Person vor Riesenbären von line' src={Baer}/>
                 <div className='textBaer'>
-                    Wenn ich mal nicht am coden bin, verbringe ich meine Zeit gerne mit zeichnen,
+                    Wenn ich mal nicht am coden oder designen bin, verbringe ich meine Zeit gerne mit zeichnen
+                    (ganz old School auf Papier),
                     meinen Huskys,
                     Sport/ Fitness,
-                    gerne auch mal etwas ruhiger mit Yoga,
                     Animes schauen, Mangas lesen,
                     oder auch mit Videospiele spielen.
                     <div className='Icons'>

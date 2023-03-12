@@ -12,7 +12,9 @@ import ReactIcon from '../../images/skillsIcons/icons8-react-native-50.png'
 import Graduation from '../../images/skillsIcons/icons8-graduation-cap-48.png'
 import Bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
 import nodelogo from '../../images/skillsIcons/icons8-nodejs-48.png'
-import Python from '../../images/skillsIcons/icons8-python-64.png'
+import Sass from '../../images/skillsIcons/icons8-sass-50-2.png'
+import AI from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
+import AE from '../../images/skillsIcons/icons8-adobe-after-effects-100.png'
 
 function Skills() {
     return(
@@ -26,7 +28,7 @@ function Skills() {
             <div className="currentSkillsContainer">
 
                 <div className='skillsBox'>
-                    <h3>Development</h3>
+                    <h3>Development and Design</h3>
                     <div className='images'>
                         <img title='html' alt='html' src={Html}/>
                         <img title='CSS' alt='CSS' src={Css}/>
@@ -36,6 +38,8 @@ function Skills() {
                             <img title='Github' alt='Github' src={Github}/>
                         </a>
                         <img title='bootstrap' alt='Bootstrap' src={Bootstrap}/>
+                        <img title='Adobe Illustrator' alt='Adobe Illustrator' src={AI}/>
+                        <img title='Figma' alt='Figma' src={Figma}/>
                     </div>
                 </div>
 
@@ -55,6 +59,8 @@ function Skills() {
                         <div>Gestaltung und Ergonomie von User Interfaces</div>
                         <div>Einführung in die Programmierung mit Python</div>
                         <div>Projekt Mobile Software Engineering</div>
+                        <div>Datenmodellierung und Datenbanksysteme</div>
+                        <div>Programmierung v. Web- Anwendungs- oberflächen</div>
                     </div>
                 </div>
             </div>
@@ -78,11 +84,11 @@ function Skills() {
 
 
                 <div className='skillsBox'>
-                    <h3>Development</h3>
+                    <h3>Development and Design</h3>
                     <div className='images'>
                         <img title='Node' alt='Node' src={nodelogo}/>
-                        <img title='Python' alt='Python' src={Python}/>
-                        <img title='Figma' alt='Figma' src={Figma}/>
+                        <img title='Adobe AfterEffects' alt='Adobe AfterEffects' src={AE}/>
+                        <img title='Sass' alt='Sass' src={Sass}/>
                     </div>
                 </div>
 
@@ -92,8 +98,8 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>Datenmodellierung und Datenbanksysteme</div>
-                        <div>Algorithmen, Datenstrukturen u. Programmierspr.</div>
+                        <div>IT- Architektur- management</div>
+                        <div>Grundlagen der objektorientierten Programmierung mit Java</div>
                     </div>
                 </div>
             </div>
