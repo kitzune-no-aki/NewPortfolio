@@ -23,6 +23,11 @@
     height: 28em;
 }
 
+.case5 {
+    background-image: url("../../images/portfolioImg/Glumanda.jpeg");
+    background-size: 30em;
+}
+
 
 .case .portfolio img {
     width: 5em;

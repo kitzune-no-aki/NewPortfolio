@@ -72,6 +72,21 @@ p{
     background-size: 35em;
 }
 
+.box8{
+    background-image: url("../../images/projects/Advise.png") ;
+    background-size: 35em;
+}
+
+.box8 p{
+    color: #cad2c5;
+}
+
+.box9{
+    background-image: url("../../images/projects/CO2.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
 .skillsContainer{
     display: flex;
     flex-direction: column;

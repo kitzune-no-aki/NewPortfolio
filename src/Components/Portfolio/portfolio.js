@@ -4,6 +4,7 @@ import Footer from "../Footer/footer";
 import './portfolio.css';
 import ai from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
 import portfolioFigma from '../../images/portfolioImg/portfolioFigma.mp4'
+import fresco from '../../images/skillsIcons/icons8-fresco-64.png'
 
 function Portfolio(){
     return(
@@ -24,6 +25,9 @@ function Portfolio(){
                     <video autoPlay muted loop id='figmaScreen'>
                         <source src={portfolioFigma}/>
                     </video>
+                </div>
+                <div className='portfolio case5'>
+                    <img alt='Fresco icon' src={fresco}/>
                 </div>
             </div>
             <Footer></Footer>

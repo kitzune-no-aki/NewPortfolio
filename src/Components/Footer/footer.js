@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './footer.css'
 import Git from '../../images/skillsIcons/icons8-github-50-2.png'
 import Mail from '../../images/skillsIcons/icons8-mail-100.png'
+import Insta from '../../images/skillsIcons/icons8-instagram-50.png'
 
 
 function Footer(){
@@ -14,6 +15,9 @@ function Footer(){
                     </a>
                     <a href='mailto:kontakt@mpech.dev'>
                         <img alt='Mailsymbol' src={Mail}/>
+                    </a>
+                    <a href='https://www.instagram.com/white.rabbitdesigns/' target='_blank'>
+                        <img alt='Instagram Symbol' src={Insta}/>
                     </a>
                 </div>
                 <div>icons from: <a href='https://icons8.com/' target="_blank" >https://icons8.com/</a></div>

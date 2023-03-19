@@ -15,6 +15,9 @@ import nodelogo from '../../images/skillsIcons/icons8-nodejs-48.png'
 import Sass from '../../images/skillsIcons/icons8-sass-50-2.png'
 import AI from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
 import AE from '../../images/skillsIcons/icons8-adobe-after-effects-100.png'
+import Jira from '../../images/skillsIcons/icons8-jira-48.png'
+import Confluence from '../../images/skillsIcons/icons8-confluence-48.png'
+import Fresco from '../../images/skillsIcons/icons8-fresco-64.png'
 
 function Skills() {
     return(
@@ -39,7 +42,10 @@ function Skills() {
                         </a>
                         <img title='bootstrap' alt='Bootstrap' src={Bootstrap}/>
                         <img title='Adobe Illustrator' alt='Adobe Illustrator' src={AI}/>
+                        <img title='Fresco' alt='Fresco' src={Fresco}/>
                         <img title='Figma' alt='Figma' src={Figma}/>
+                        <img title='Jira' alt='Jira' src={Jira}/>
+                        <img title='Confluence' alt='Confluence' src={Confluence}/>
                     </div>
                 </div>
 

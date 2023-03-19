@@ -4,6 +4,7 @@ import html from '../../images/skillsIcons/icons8-html-5-50-2.png'
 import css from '../../images/skillsIcons/icons8-css3-50-2.png'
 import java from '../../images/skillsIcons/icons8-javascript-50-2.png'
 import bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
+import reactImg from '../../images/skillsIcons/icons8-react-native-50.png'
 import './projects.css'
 import Footer from "../Footer/footer";
 
@@ -105,6 +106,25 @@ function Projects(){
                         <img alt='html' src={html}/>
                         <img alt='css' src={css}/>
                         <img alt='java script' src={java}/>
+                    </div>
+                </div>
+                <div className='project box8'>
+                    <a href='https://github.com/kitzune-no-aki/advice_generator' target='_blank'>
+                        <p>Durch klicken erhält man Weisheiten. In react geschrieben, Weisheiten kommen über eine Api. </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='css' src={css}/>
+                    </div>
+                </div>
+                <div className='project box9'>
+                    <a href='https://github.com/kitzune-no-aki/co2' target='_blank'>
+                        <p>Seite mit Tabellen zum  Verbrauch von CO2-Emission, jeweils zu Ländern und Firmen.
+                        Die Tabellen könen gefiltert und sortiert werden. </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='css' src={css}/>
                     </div>
                 </div>
             </div>
