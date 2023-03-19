@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd88ccda.css",
-    "main.js": "/static/js/main.b0a76ed4.js",
+    "main.css": "/static/css/main.ef8775f5.css",
+    "main.js": "/static/js/main.4ab00ee5.js",
     "static/media/portfolioFigma.mp4": "/static/media/portfolioFigma.af5ae01590d8c2355375.mp4",
     "static/media/Screenshot 2022-07-31 at 19.51.35.png": "/static/media/Screenshot 2022-07-31 at 19.51.35.0004423fb3c9e9aa24b4.png",
     "static/media/Lebenslauf.jpeg": "/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
@@ -11,6 +11,7 @@
     "static/media/backgroundPokemon.png": "/static/media/backgroundPokemon.112361ccd83325f604bc.png",
     "static/media/backgroundCandyMuseum.png": "/static/media/backgroundCandyMuseum.0c3fed88acfe1eadd9e4.png",
     "static/media/backgroundScoreKeeper.png": "/static/media/backgroundScoreKeeper.0dacfab299d13dde4734.png",
+    "static/media/Glumanda.jpeg": "/static/media/Glumanda.9af5721ed2abb5906bca.jpeg",
     "static/media/Pinguin (1).svg": "/static/media/Pinguin (1).6ddf16f160ec1319d987.svg",
     "static/media/baer.jpeg": "/static/media/baer.9ee1ef1caaa06a50690e.jpeg",
     "static/media/backgroundClickMe.png": "/static/media/backgroundClickMe.3c0ea4740698f983494d.png",
@@ -19,11 +20,11 @@
     "static/media/Advise.png": "/static/media/Advise.f890440535fd3005f0a6.png",
     "static/media/MP.svg": "/static/media/MP.50b5eb98c1b16fe0f8e9.svg",
     "index.html": "/index.html",
-    "main.dd88ccda.css.map": "/static/css/main.dd88ccda.css.map",
-    "main.b0a76ed4.js.map": "/static/js/main.b0a76ed4.js.map"
+    "main.ef8775f5.css.map": "/static/css/main.ef8775f5.css.map",
+    "main.4ab00ee5.js.map": "/static/js/main.4ab00ee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd88ccda.css",
-    "static/js/main.b0a76ed4.js"
+    "static/css/main.ef8775f5.css",
+    "static/js/main.4ab00ee5.js"
   ]
 }
