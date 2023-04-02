@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef8775f5.css",
-    "main.js": "/static/js/main.4ab00ee5.js",
+    "main.css": "/static/css/main.b903cafd.css",
+    "main.js": "/static/js/main.c93f7bcc.js",
     "static/media/portfolioFigma.mp4": "/static/media/portfolioFigma.af5ae01590d8c2355375.mp4",
     "static/media/Screenshot 2022-07-31 at 19.51.35.png": "/static/media/Screenshot 2022-07-31 at 19.51.35.0004423fb3c9e9aa24b4.png",
     "static/media/Lebenslauf.jpeg": "/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
@@ -14,17 +14,18 @@
     "static/media/Glumanda.jpeg": "/static/media/Glumanda.9af5721ed2abb5906bca.jpeg",
     "static/media/Pinguin (1).svg": "/static/media/Pinguin (1).6ddf16f160ec1319d987.svg",
     "static/media/baer.jpeg": "/static/media/baer.9ee1ef1caaa06a50690e.jpeg",
+    "static/media/Eevee.jpeg": "/static/media/Eevee.0ea75ffe7a7e67d427df.jpeg",
     "static/media/backgroundClickMe.png": "/static/media/backgroundClickMe.3c0ea4740698f983494d.png",
     "static/media/CO2.png": "/static/media/CO2.b3fd2b9db6944ddbd326.png",
     "static/media/backgroundRandomColor.png": "/static/media/backgroundRandomColor.6be92ab0500ba2174cd6.png",
+    "static/media/MP.jpeg": "/static/media/MP.f9a707197960eca881f0.jpeg",
     "static/media/Advise.png": "/static/media/Advise.f890440535fd3005f0a6.png",
-    "static/media/MP.svg": "/static/media/MP.50b5eb98c1b16fe0f8e9.svg",
     "index.html": "/index.html",
-    "main.ef8775f5.css.map": "/static/css/main.ef8775f5.css.map",
-    "main.4ab00ee5.js.map": "/static/js/main.4ab00ee5.js.map"
+    "main.b903cafd.css.map": "/static/css/main.b903cafd.css.map",
+    "main.c93f7bcc.js.map": "/static/js/main.c93f7bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef8775f5.css",
-    "static/js/main.4ab00ee5.js"
+    "static/css/main.b903cafd.css",
+    "static/js/main.c93f7bcc.js"
   ]
 }
