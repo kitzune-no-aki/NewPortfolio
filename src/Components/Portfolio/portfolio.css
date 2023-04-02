@@ -8,7 +8,7 @@
 }
 
 .case3 {
-    background-image: url("../../images/portfolioImg/MP.svg");
+    background-image: url("../../images/portfolioImg/MP.jpeg");
     background-size: 30em;
 }
 
@@ -27,6 +27,15 @@
     background-image: url("../../images/portfolioImg/Glumanda.jpeg");
     background-size: 30em;
 }
+
+.case6 {
+    background-image: url("../../images/portfolioImg/Eevee.jpeg");
+    background-size: 30em;
+}
+
+.progressTitle{
+    display: flex;
+  }
 
 
 .case .portfolio img {

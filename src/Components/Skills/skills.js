@@ -18,6 +18,7 @@ import AE from '../../images/skillsIcons/icons8-adobe-after-effects-100.png'
 import Jira from '../../images/skillsIcons/icons8-jira-48.png'
 import Confluence from '../../images/skillsIcons/icons8-confluence-48.png'
 import Fresco from '../../images/skillsIcons/icons8-fresco-64.png'
+import SQL from '../../images/skillsIcons/icons8-sql-64.png'
 
 function Skills() {
     return(
@@ -46,6 +47,7 @@ function Skills() {
                         <img title='Figma' alt='Figma' src={Figma}/>
                         <img title='Jira' alt='Jira' src={Jira}/>
                         <img title='Confluence' alt='Confluence' src={Confluence}/>
+                        <img title='SQL' alt='SQL' src={SQL}/>
                     </div>
                 </div>
 
