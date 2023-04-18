@@ -109,7 +109,7 @@ function Projects(){
                     </div>
                 </div>
                 <div className='project box8'>
-                    <a href='https://github.com/kitzune-no-aki/advice_generator' target='_blank'>
+                    <a href='https://kitzune-no-aki.github.io/advice_generator/' target='_blank'>
                         <p>Durch klicken erhält man Weisheiten. In react geschrieben, Weisheiten kommen über eine Api. </p>
                     </a>
                     <div className='imgSkill'>
@@ -118,7 +118,7 @@ function Projects(){
                     </div>
                 </div>
                 <div className='project box9'>
-                    <a href='https://github.com/kitzune-no-aki/co2' target='_blank'>
+                    <a href='https://kitzune-no-aki.github.io/co2/' target='_blank'>
                         <p>Seite mit Tabellen zum  Verbrauch von CO2-Emission, jeweils zu Ländern und Firmen.
                         Die Tabellen könen gefiltert und sortiert werden. </p>
                     </a>

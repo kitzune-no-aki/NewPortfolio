@@ -69,6 +69,7 @@ function Skills() {
                         <div>Projekt Mobile Software Engineering</div>
                         <div>Datenmodellierung und Datenbanksysteme</div>
                         <div>Programmierung v. Web- Anwendungs- oberflächen</div>
+                        <div>Grundlagen der objektorientierten Programmierung mit Java</div>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,7 @@ function Skills() {
                     </h3>
                     <div className='module'>
                         <div>IT- Architektur- management</div>
-                        <div>Grundlagen der objektorientierten Programmierung mit Java</div>
+                        <div>Ethik und Nachhaltigkeit in der IT</div>
                     </div>
                 </div>
             </div>
