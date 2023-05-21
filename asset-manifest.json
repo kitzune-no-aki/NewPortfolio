@@ -1,31 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b903cafd.css",
-    "main.js": "/static/js/main.307828aa.js",
+    "main.css": "/static/css/main.6390d111.css",
+    "main.js": "/static/js/main.8cf46a44.js",
     "static/media/portfolioFigma.mp4": "/static/media/portfolioFigma.af5ae01590d8c2355375.mp4",
     "static/media/Screenshot 2022-07-31 at 19.51.35.png": "/static/media/Screenshot 2022-07-31 at 19.51.35.0004423fb3c9e9aa24b4.png",
     "static/media/Lebenslauf.jpeg": "/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
     "static/media/backgroundFirstPortfolio.png": "/static/media/backgroundFirstPortfolio.f425a4edb22b2fad3557.png",
     "static/media/dino2.svg": "/static/media/dino2.d1e4d367d6548182249c.svg",
     "static/media/rilakuma.jpg": "/static/media/rilakuma.67de6ce98298bb0bbe3c.jpg",
+    "static/media/Karpador.jpg": "/static/media/Karpador.5090f4991adc0b4ba569.jpg",
     "static/media/backgroundPokemon.png": "/static/media/backgroundPokemon.112361ccd83325f604bc.png",
     "static/media/backgroundCandyMuseum.png": "/static/media/backgroundCandyMuseum.0c3fed88acfe1eadd9e4.png",
     "static/media/backgroundScoreKeeper.png": "/static/media/backgroundScoreKeeper.0dacfab299d13dde4734.png",
     "static/media/Glumanda.jpeg": "/static/media/Glumanda.9af5721ed2abb5906bca.jpeg",
     "static/media/Pinguin (1).svg": "/static/media/Pinguin (1).6ddf16f160ec1319d987.svg",
     "static/media/baer.jpeg": "/static/media/baer.9ee1ef1caaa06a50690e.jpeg",
-    "static/media/Eevee.jpeg": "/static/media/Eevee.0ea75ffe7a7e67d427df.jpeg",
+    "static/media/Eevee.jpeg": "/static/media/Eevee.d53eeb7888ebbd7afb1a.jpeg",
+    "static/media/Manga.jpg": "/static/media/Manga.813e1c5623bb32db8419.jpg",
     "static/media/backgroundClickMe.png": "/static/media/backgroundClickMe.3c0ea4740698f983494d.png",
+    "static/media/Mangabg.jpg": "/static/media/Mangabg.ceee1e98bac7830be312.jpg",
     "static/media/CO2.png": "/static/media/CO2.b3fd2b9db6944ddbd326.png",
     "static/media/backgroundRandomColor.png": "/static/media/backgroundRandomColor.6be92ab0500ba2174cd6.png",
     "static/media/MP.jpeg": "/static/media/MP.f9a707197960eca881f0.jpeg",
     "static/media/Advise.png": "/static/media/Advise.f890440535fd3005f0a6.png",
     "index.html": "/index.html",
-    "main.b903cafd.css.map": "/static/css/main.b903cafd.css.map",
-    "main.307828aa.js.map": "/static/js/main.307828aa.js.map"
+    "main.6390d111.css.map": "/static/css/main.6390d111.css.map",
+    "main.8cf46a44.js.map": "/static/js/main.8cf46a44.js.map"
   },
   "entrypoints": [
-    "static/css/main.b903cafd.css",
-    "static/js/main.307828aa.js"
+    "static/css/main.6390d111.css",
+    "static/js/main.8cf46a44.js"
   ]
 }
