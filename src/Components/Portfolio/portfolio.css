@@ -33,6 +33,16 @@
     background-size: 30em;
 }
 
+.case7 {
+    background-image: url("../../images/portfolioImg/Karpador.jpg");
+    background-size: 35em;
+}
+
+.case8 {
+    background-image: url("../../images/portfolioImg/Manga.jpg");
+    background-size: 30em;
+}
+
 .progressTitle{
     display: flex;
   }

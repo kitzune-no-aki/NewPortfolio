@@ -5,6 +5,8 @@ import css from '../../images/skillsIcons/icons8-css3-50-2.png'
 import java from '../../images/skillsIcons/icons8-javascript-50-2.png'
 import bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
 import reactImg from '../../images/skillsIcons/icons8-react-native-50.png'
+import sass from '../../images/skillsIcons/icons8-sass-50-2.png'
+import node from '../../images/skillsIcons/icons8-nodejs-48.png'
 import './projects.css'
 import Footer from "../Footer/footer";
 
@@ -125,6 +127,20 @@ function Projects(){
                     <div className='imgSkill'>
                         <img alt='react' src={reactImg}/>
                         <img alt='css' src={css}/>
+                    </div>
+                </div>
+                <div className='project box10'>
+                    <a href='https://github.com/kitzune-no-aki/Manga' target='_blank'>
+                        <p>Eine Bibliotheksliste oder auch Inventarliste für Bücher und Mangas. Von der Loginseite kommt man
+                            auf die Liste in Form einer Tabelle. Je nach Benutzerrechten kann die Liste bearbeitet werden
+                            und weitere Bücher hinzugefügt werden.
+                        Die Seite befindet sich in der Erstellung. Das Backend ist fertiggestellt und eine Idee für das Frontend
+                        in Figma unter Portfolio ein zu sehen.</p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='sass' src={sass}/>
+                        <img alt='node' src={node}/>
                     </div>
                 </div>
             </div>

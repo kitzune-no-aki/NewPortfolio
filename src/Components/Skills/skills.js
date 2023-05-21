@@ -70,6 +70,7 @@ function Skills() {
                         <div>Datenmodellierung und Datenbanksysteme</div>
                         <div>Programmierung v. Web- Anwendungs- oberflächen</div>
                         <div>Grundlagen der objektorientierten Programmierung mit Java</div>
+                        <div>IT- Architektur- management</div>
                     </div>
                 </div>
             </div>
@@ -107,8 +108,8 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>IT- Architektur- management</div>
-                        <div>Ethik und Nachhaltigkeit in der IT</div>
+                        <div>Requirements Engineering</div>
+                        <div>Qualitätssicherung im Softwareprozess</div>
                     </div>
                 </div>
             </div>

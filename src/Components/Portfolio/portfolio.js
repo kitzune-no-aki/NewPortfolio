@@ -5,6 +5,7 @@ import './portfolio.css';
 import ai from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
 import portfolioFigma from '../../images/portfolioImg/portfolioFigma.mp4'
 import fresco from '../../images/skillsIcons/icons8-fresco-64.png'
+import figma from '../../images/skillsIcons/icons8-figma-50-2.png'
 import Typewriter from "typewriter-effect";
 
 function Portfolio(){
@@ -32,18 +33,12 @@ function Portfolio(){
                 </div>
                 <div className='portfolio case6'>
                     <img alt='Fresco icon' src={fresco}/>
-                    <h5 className='progressTitle'>Still in progress
-                        <span>
-                        <Typewriter
-                            options={{
-                                strings: ['..'],
-                                autoStart: true,
-                                loop: true,
-                                cursor: '.',
-                            }}
-                        />
-                    </span>
-                    </h5>
+                </div>
+                <div className='portfolio case7'>
+                    <img alt='Fresco icon' src={fresco}/>
+                </div>
+                <div className='portfolio case8'>
+                    <img alt='Figma icon' src={figma}/>
                 </div>
             </div>
             <Footer></Footer>

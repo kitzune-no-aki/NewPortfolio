@@ -87,6 +87,12 @@ p{
     font-weight: bold;
 }
 
+.box10{
+    background-image: url("../../images/projects/Mangabg.jpg");
+    background-size: 30em;
+    font-weight: bold;
+}
+
 .skillsContainer{
     display: flex;
     flex-direction: column;
