@@ -20,12 +20,15 @@ function Me(){
             <div className='lebenslaufContainer'>
                 <div className='textLebenslauf'>
                     <h3>Hi, ich bin Miriam</h3>
-                    <p>Ich bin wissbegierig, lernfreudig, immer gut gelaunt und bis vor kurzem war ich erfolgreich
-                        im sozialen Bereich tätig. Vergangenen Sommer habe ich dann nach reiflicher Überlegung meinen Werdegang
-                        in der IT begonnen. Ich habe den Studiengang B. Sc. Softwareentwicklung begonnen und eine Tätigkeit als
-                        wissenschaftliche Mitarbeiterin im technischen Support begonnen.
-                        Neben dem Studium erweiter ich stetig mein Wissen rund ums Thema Designen und Gestalten. Sei es dabei
-                        das Frontend zu gestalten, oder auch alles rund um UI und UX.
+                    <p>Ich bin wissbegierig, lernfreudig, fast immer gut gelaunt, aber immer auf der Suche nach neuen
+                        Herausforderungen. 2022 habe ich meine Reise in die Softwareentwicklung begonnen. Zunächst habe
+                        ich eigenständig Wissen angeeignet und experimentiert, um dann das Studium der B.Sc. Softwareentwicklung
+                        aufzunehmen und eine Tätigkeit im technischen Support anzunehmen.
+                    </p>
+                    <p>
+                        Neben Studium und Beruf setze ich meine Leidenschaft fort, indem ich mir weiter neue Techniken
+                        aneigne und mich an neuen Projekten probiere. Dabei liegt mein Fokus auf das Frontend, Designen,
+                        alles rund um die Themen UI und UX.
                     </p>
                 </div>
                 <img className='lebenslauf' alt='Frauenbild' src={Lebenslauf}/>
@@ -33,12 +36,11 @@ function Me(){
             <div className='baerContainer'>
                 <img className='baer' alt='Person vor Riesenbären von line' src={Baer}/>
                 <div className='textBaer'>
-                    Wenn ich mal nicht am coden oder designen bin, verbringe ich meine Zeit gerne mit zeichnen
-                    (ganz old School auf Papier),
-                    meinen Huskys,
-                    Sport/ Fitness,
-                    Animes schauen, Mangas lesen,
-                    oder auch mit Videospiele spielen.
+                    Wenn ich mich mal nicht kreativ betätige, sei es digital durch Programmieren oder die Nutzung der
+                    Adobe Creative Cloud, oder auch analog mit Stift, Pinsel und Papier, suche ich den Ausgleich, indem
+                    ich in andere Welten eintauche. Ich genieße es, alleine oder mit meinem Husky in der Natur zu laufen
+                    und dabei meine Gedanken über Landschaften und Szenerien schweifen zu lassen. Zusätzlich tauche ich
+                    in ferne Welten ein, indem ich Anime schaue, Manga und Bücher lese oder Videospiele spiele.
                     <div className='Icons'>
                         <img alt='zeichnen' src={Zeichnen}/>
                         <img alt='Husky' src={Husky}/>
