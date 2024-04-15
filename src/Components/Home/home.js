@@ -16,9 +16,9 @@ function Home() {
                     <Link to="/projects">
                         <div className="nav projectsLink">Projects</div>
                     </Link>
-                    <Link to="/portfolio">
+                    {/*<Link to="/portfolio">
                         <div className="nav portfolioLink">Portfolio</div>
-                    </Link>
+                    </Link>*/}
                     <Link to="/me">
                         <div className="nav meLink">Me</div>
                     </Link>
@@ -33,7 +33,7 @@ function Home() {
                     <span>
                         <Typewriter
                             options={{
-                                strings: ['Developer', 'Designer','Creative', 'Curious', 'Optimist'],
+                                strings: ['proud Wiener Linien employee', 'Creative', 'Curious', 'Optimist', 'Social Worker', 'Requirements Engineer'],
                                 autoStart: true,
                                 loop: true,
                                 pauseFor: 2000,

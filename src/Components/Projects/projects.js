@@ -18,23 +18,55 @@ function Projects(){
             <div className='box'>
 
                 <div className='project box1'>
-                    <a href='https://kitzune-no-aki.github.io/Museum-of-Candy/' target="_blank" >
-                        <p>
-                            Umsetzung einer Website zur Übung von Bootstrap und responsive Design.
-                        </p>
+                    <a href='https://github.com/kitzune-no-aki/Manga' target='_blank'>
+                        <p>Eine Bibliotheksliste oder auch Inventarliste für Bücher und Mangas. Von der Loginseite kommt man
+                            auf die Liste in Form einer Tabelle. Je nach Benutzerrechten kann die Liste bearbeitet werden
+                            und weitere Bücher hinzugefügt werden.
+                            Die Seite befindet sich in der Erstellung. Das Backend ist fertiggestellt und das Design in
+                            Figma erstellt. Die Programmierung vom Frontend fehlt noch.</p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='sass' src={sass}/>
+                        <img alt='node' src={node}/>
+                    </div>
+                </div>
+                <div className='project box2'>
+                    <a href='https://kitzune-no-aki.github.io/co2/' target='_blank'>
+                        <p>Seite mit Tabellen zum  Verbrauch von CO2-Emission, jeweils zu Ländern und Firmen.
+                            Die Tabellen könen gefiltert und sortiert werden. </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='css' src={css}/>
+                    </div>
+                </div>
+                <div className='project box3'>
+                    <a href='https://kitzune-no-aki.github.io/advice_generator/' target='_blank'>
+                        <p>Durch klicken erhält man Weisheiten. In react geschrieben, Weisheiten kommen über eine Api. </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='react' src={reactImg}/>
+                        <img alt='css' src={css}/>
+                    </div>
+                </div>
+
+                <div className='project box4'>
+                    <a href='https://kitzune-no-aki.github.io/weatherapp/' target='_blank'>
+                        <p>Schlichte Wetter App, die die Temperatur und weitere Parameter einer gewünschten Stadt anzeigt.
+                            Dabei wird im Hintergrund ein Bild abgebildet von der aktuellen Wetterbeschreibung. </p>
                     </a>
                     <div className='imgSkill'>
                         <img alt='html' src={html}/>
                         <img alt='css' src={css}/>
-                        <img alt='bootstrap' src={bootstrap}/>
+                        <img alt='java script' src={java}/>
                     </div>
                 </div>
 
-                <div className='project box2'>
-                    <a href='https://kitzune-no-aki.github.io/Document/' target="_blank" >
+                <div className='project box5'>
+                    <a href='https://kitzune-no-aki.github.io/Portfolio/' target="_blank" >
                         <p>
-                            Übung zu DOM Events und Promises. Hier wechselt zu Anfang der Background seine Farben in einem Regenbogenverlauf und endet wieder in grau. Die Buttons, sowie die Überschriften,
-                            wechseln bei Anklicken ihre Farben in eine zufällige Farbe.
+                            Erste einfache Gestaltung eines Portfolios mit Hilfe von bootstrap.
                         </p>
                     </a>
                     <div className='imgSkill'>
@@ -44,7 +76,33 @@ function Projects(){
                     </div>
                 </div>
 
-                <div className='project box3'>
+                <div className='project box6'>
+                    <a href='https://kitzune-no-aki.github.io/pokemon/' target="_blank" >
+                        <p>
+                            Anfangsübung zu DOM. Eine fast leere Website, wird mit images der ersten 151 Pokemon und deren
+                            Nummer befüllt mithilfe der DOM.
+                        </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='html' src={html}/>
+                        <img alt='css' src={css}/>
+                        <img alt='java script' src={java}/>
+                    </div>
+                </div>
+                <div className='project box7'>
+                    <a href='https://kitzune-no-aki.github.io/RandomColors/' target="_blank" >
+                        <p>
+                            Weitere Übung zu Dom Events. Beim klicken verändert sich der Hintergrund in eine beliebige Farbe
+                            und die r,g,b dazu wird über dem Button angezeigt.
+                        </p>
+                    </a>
+                    <div className='imgSkill'>
+                        <img alt='html' src={html}/>
+                        <img alt='css' src={css}/>
+                        <img alt='java script' src={java}/>
+                    </div>
+                </div>
+                <div className='project box8'>
                     <a href='https://kitzune-no-aki.github.io/ScoreKeeper/' target="_blank" >
                         <p>
                             Gestaltung eines Punktezählers zur Übung von dom Manipulation mittels Javascript und erste Schritte
@@ -58,91 +116,35 @@ function Projects(){
                         <img alt='java script' src={java}/>
                     </div>
                 </div>
-
-                <div className='project box4'>
-                    <a href='https://kitzune-no-aki.github.io/RandomColors/' target="_blank" >
-                        <p>
-                            Weitere Übung zu Dom Events. Beim klicken verändert sich der Hintergrund in eine beliebige Farbe
-                            und die r,g,b dazu wird über dem Button angezeigt.
-                        </p>
-                    </a>
-                    <div className='imgSkill'>
-                        <img alt='html' src={html}/>
-                        <img alt='css' src={css}/>
-                        <img alt='java script' src={java}/>
-                    </div>
-                </div>
-
-                <div className='project box5'>
-                    <a href='https://kitzune-no-aki.github.io/pokemon/' target="_blank" >
-                        <p>
-                            Anfangsübung zu DOM. Eine fast leere Website, wird mit images der ersten 151 Pokemon und deren
-                            Nummer befüllt mithilfe der DOM.
-                        </p>
-                    </a>
-                    <div className='imgSkill'>
-                        <img alt='html' src={html}/>
-                        <img alt='css' src={css}/>
-                        <img alt='java script' src={java}/>
-                    </div>
-                </div>
-
-                <div className='project box6'>
-                    <a href='https://kitzune-no-aki.github.io/Portfolio/' target="_blank" >
-                        <p>
-                            Erste einfache Gestaltung eines Portfolios mit Hilfe von bootstrap.
-                        </p>
-                    </a>
-                    <div className='imgSkill'>
-                        <img alt='html' src={html}/>
-                        <img alt='css' src={css}/>
-                        <img alt='java script' src={java}/>
-                    </div>
-                </div>
-                <div className='project box7'>
-                    <a href='https://kitzune-no-aki.github.io/weatherapp/' target='_blank'>
-                        <p>Schlichte Wetter App, die die Temperatur und weitere Parameter einer gewünschten Stadt anzeigt.
-                            Dabei wird im Hintergrund ein Bild abgebildet von der aktuellen Wetterbeschreibung. </p>
-                    </a>
-                    <div className='imgSkill'>
-                        <img alt='html' src={html}/>
-                        <img alt='css' src={css}/>
-                        <img alt='java script' src={java}/>
-                    </div>
-                </div>
-                <div className='project box8'>
-                    <a href='https://kitzune-no-aki.github.io/advice_generator/' target='_blank'>
-                        <p>Durch klicken erhält man Weisheiten. In react geschrieben, Weisheiten kommen über eine Api. </p>
-                    </a>
-                    <div className='imgSkill'>
-                        <img alt='react' src={reactImg}/>
-                        <img alt='css' src={css}/>
-                    </div>
-                </div>
                 <div className='project box9'>
-                    <a href='https://kitzune-no-aki.github.io/co2/' target='_blank'>
-                        <p>Seite mit Tabellen zum  Verbrauch von CO2-Emission, jeweils zu Ländern und Firmen.
-                        Die Tabellen könen gefiltert und sortiert werden. </p>
+                    <a href='https://kitzune-no-aki.github.io/Document/' target="_blank" >
+                        <p>
+                            Übung zu DOM Events und Promises. Hier wechselt zu Anfang der Background seine Farben in einem Regenbogenverlauf und endet wieder in grau. Die Buttons, sowie die Überschriften,
+                            wechseln bei Anklicken ihre Farben in eine zufällige Farbe.
+                        </p>
                     </a>
                     <div className='imgSkill'>
-                        <img alt='react' src={reactImg}/>
+                        <img alt='html' src={html}/>
                         <img alt='css' src={css}/>
+                        <img alt='java script' src={java}/>
                     </div>
                 </div>
                 <div className='project box10'>
-                    <a href='https://github.com/kitzune-no-aki/Manga' target='_blank'>
-                        <p>Eine Bibliotheksliste oder auch Inventarliste für Bücher und Mangas. Von der Loginseite kommt man
-                            auf die Liste in Form einer Tabelle. Je nach Benutzerrechten kann die Liste bearbeitet werden
-                            und weitere Bücher hinzugefügt werden.
-                        Die Seite befindet sich in der Erstellung. Das Backend ist fertiggestellt und eine Idee für das Frontend
-                        in Figma unter Portfolio ein zu sehen.</p>
+                    <a href='https://kitzune-no-aki.github.io/Museum-of-Candy/' target="_blank" >
+                        <p>
+                            Umsetzung einer Website zur Übung von Bootstrap und responsive Design.
+                        </p>
                     </a>
                     <div className='imgSkill'>
-                        <img alt='react' src={reactImg}/>
-                        <img alt='sass' src={sass}/>
-                        <img alt='node' src={node}/>
+                        <img alt='html' src={html}/>
+                        <img alt='css' src={css}/>
+                        <img alt='bootstrap' src={bootstrap}/>
                     </div>
-                </div>
+            </div>
+
+
+
+
             </div>
             <Footer></Footer>
         </div>

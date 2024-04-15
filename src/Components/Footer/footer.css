@@ -6,7 +6,7 @@
     background-position: top;
     background-size: cover;
     height: 5em;
-    border-top: 1.5px solid #293228;
+    border-top: 1.5px solid #050A0D;
 }
 
 .imgFooter{
@@ -24,12 +24,19 @@
 }
 
 .foot{
-    color: #2f3e46;
+    color: #050A0D;
 }
 
 .foot a{
-    color: #2f3e46;
+    color: #192f3d;
+}
+.foot .verweise .icons :hover{
+    color: #050A0D;
 }
 
-
+.imgFooter .insta{
+    width: 2em;
+    height: 2em;
+    margin-top: 0.25em;
+}
 

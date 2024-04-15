@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     gap: 10em;
     align-items: center;
-    color: #293228;
+    color: #050A0D;
     flex-wrap: wrap;
 }
 
@@ -19,9 +19,13 @@ h2{
     align-items: center;
 }
 
+.header {
+    width: 25em;
+}
+
 .header span{
     margin-left: 0.2em;
-    color: #5AA652;
+    color: #050A0D;
 }
 
 .mainNavbar {
@@ -35,20 +39,20 @@ h2{
     width: 20em;
     margin-top: 2em;
     margin-left: 2em;
-    border: solid #293228;
+    border: solid #050A0D;
 }
 
 .nav {
     display: flex;
     border-radius: 50%;
     margin: 1em;
-    border: solid #293228;
+    border: solid #050A0D;
     width: 6em;
     height: 6em;
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
-    background-color: #E9EFEB;
+    background-color: #476368;
 }
 
 .skillsLink{
@@ -61,14 +65,14 @@ h2{
     margin-left: -7em;
 }
 
-.portfolioLink{
+/*.portfolioLink{
     margin-top: 25em;
     margin-left: -13em;
-}
+}*/
 
 .meLink{
-    margin-top: 29em;
-    margin-left: -23em;
+    margin-top: 24.5em;/*29em*/
+    margin-left: -12em;/*23em*/
 }
 
 .mainNavbar .nav:hover{

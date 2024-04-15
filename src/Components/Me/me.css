@@ -13,7 +13,7 @@
     text-align: center;
     gap: 5em;
     margin: 5em;
-    color: #293228;
+    color: #050A0D;
 }
 
 .baerContainer {
@@ -24,7 +24,7 @@
     text-align: center;
     gap: 5em;
     margin: 5em;
-    color: #293228;
+    color: #050A0D;
 }
 
 .baer{
@@ -50,10 +50,10 @@
 .textLebenslauf{
     text-align: center;
     width: 30em;
-    border: solid #293228;
+    border: solid #192f3d;
     border-radius: 5%;
     padding: 2em 3em;
-    background-color: #E9EFEB;
+    background-color: #4c696f;
     margin: 5em;
 }
 
@@ -64,10 +64,10 @@
     flex-direction: column;
     text-align: center;
     width: 30em;
-    border: solid #293228;
+    border: solid #192f3d;
     border-radius: 5%;
     padding: 5em 3em;
-    background-color: #E9EFEB;
+    background-color: #4c696f;
     margin: 5em;
 }
 

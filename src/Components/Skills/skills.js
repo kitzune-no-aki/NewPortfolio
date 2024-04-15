@@ -4,21 +4,22 @@ import Typewriter from "typewriter-effect";
 import './skills.css'
 import Footer from "../Footer/footer";
 import Css from '../../images/skillsIcons/icons8-css3-50-2.png'
-import Figma from '../../images/skillsIcons/icons8-figma-50-2.png'
+import Figma from '../../images/skillsIcons/icons8-figma-48.png'
 import Github from '../../images/skillsIcons/icons8-github-50-2.png'
-import Html from '../../images/skillsIcons/icons8-html-5-50-2.png'
-import Javascript from '../../images/skillsIcons/icons8-javascript-50-2.png'
-import ReactIcon from '../../images/skillsIcons/icons8-react-native-50.png'
+import Html from '../../images/skillsIcons/icons8-html-5-50.png'
+import Javascript from '../../images/skillsIcons/icons8-javascript-50-3.png'
+import ReactIcon from '../../images/skillsIcons/icons8-reagieren-50.png'
 import Graduation from '../../images/skillsIcons/icons8-graduation-cap-48.png'
 import Bootstrap from '../../images/skillsIcons/icons8-bootstrap-48.png'
 import nodelogo from '../../images/skillsIcons/icons8-nodejs-48.png'
 import Sass from '../../images/skillsIcons/icons8-sass-50-2.png'
-import AI from '../../images/skillsIcons/icons8-adobe-illustrator-100.png'
-import AE from '../../images/skillsIcons/icons8-adobe-after-effects-100.png'
+import AI from '../../images/skillsIcons/icons8-illustrator-48.png'
+import AE from '../../images/skillsIcons/icons8-adobe-after-effects-48.png'
 import Jira from '../../images/skillsIcons/icons8-jira-48.png'
 import Confluence from '../../images/skillsIcons/icons8-confluence-48.png'
-import Fresco from '../../images/skillsIcons/icons8-fresco-64.png'
+import Fresco from '../../images/skillsIcons/icons8-fresco-50.png'
 import SQL from '../../images/skillsIcons/icons8-sql-64.png'
+import IREB from '../../images/skillsIcons/icon_IREB.png'
 
 function Skills() {
     return(
@@ -32,12 +33,14 @@ function Skills() {
             <div className="currentSkillsContainer">
 
                 <div className='skillsBox'>
-                    <h3>Development and Design</h3>
+                    <h3>Tech Stack</h3>
                     <div className='images'>
                         <img title='html' alt='html' src={Html}/>
                         <img title='CSS' alt='CSS' src={Css}/>
                         <img title='JavaScript' alt='JavaScript' src={Javascript}/>
                         <img title='React' alt='React' src={ReactIcon}/>
+                        <img title='SQL' alt='SQL' src={SQL}/>
+                        <img title='Node' alt='Node' src={nodelogo}/>
                         <a href='https://github.com/kitzune-no-aki' target="_blank" >
                             <img title='Github' alt='Github' src={Github}/>
                         </a>
@@ -47,7 +50,8 @@ function Skills() {
                         <img title='Figma' alt='Figma' src={Figma}/>
                         <img title='Jira' alt='Jira' src={Jira}/>
                         <img title='Confluence' alt='Confluence' src={Confluence}/>
-                        <img title='SQL' alt='SQL' src={SQL}/>
+                        <img title='IREB- Zertifizierung' alt='IREB- Zertifizierung' src={IREB}/>
+
                     </div>
                 </div>
 
@@ -71,6 +75,10 @@ function Skills() {
                         <div>Programmierung v. Web- Anwendungs- oberflächen</div>
                         <div>Grundlagen der objektorientierten Programmierung mit Java</div>
                         <div>IT- Architektur- management</div>
+                        <div>Requirements Engineering</div>
+                        <div>Qualitätssicherung im Softwareprozess</div>
+                        <div>IT- Projektmanagement</div>
+                        <div>Spezifikation</div>
                     </div>
                 </div>
             </div>
@@ -94,9 +102,8 @@ function Skills() {
 
 
                 <div className='skillsBox'>
-                    <h3>Development and Design</h3>
+                    <h3>Tech Stack</h3>
                     <div className='images'>
-                        <img title='Node' alt='Node' src={nodelogo}/>
                         <img title='Adobe AfterEffects' alt='Adobe AfterEffects' src={AE}/>
                         <img title='Sass' alt='Sass' src={Sass}/>
                     </div>
@@ -108,8 +115,8 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>Requirements Engineering</div>
-                        <div>Qualitätssicherung im Softwareprozess</div>
+                        <div>Algorithmen, Datenstrukturen und Programmiersprachen</div>
+                        <div>Techniken und Methoden der agilen Softwareentwicklung</div>
                     </div>
                 </div>
             </div>

@@ -17,10 +17,10 @@ function Footer(){
                         <img alt='Mailsymbol' src={Mail}/>
                     </a>
                     <a href='https://www.instagram.com/white.rabbitdesigns/' target='_blank'>
-                        <img alt='Instagram Symbol' src={Insta}/>
+                        <img className='insta' alt='Instagram Symbol' src={Insta}/>
                     </a>
                 </div>
-                <div>icons from: <a href='https://icons8.com/' target="_blank" >https://icons8.com/</a></div>
+                <div className='icons'>icons from: <a href='https://icons8.com/' target="_blank" >https://icons8.com/</a></div>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap:1em;
-    color: #cad2c5;
+    color: #EAF1F6;
 }
 
 .box .project{
@@ -16,7 +16,7 @@
     height: 15em;
     margin: 3em;
     padding: 1em;
-    border: solid #293228;
+    border: solid #192f3d;
     border-radius: 5%;
 }
 
@@ -34,61 +34,70 @@
 
 p{
     text-align: center;
-    color: #293228;
+    color: #050A0D;
 }
 
 .box1{
-    background-image: url("../../images/projects/backgroundCandyMuseum.png") ;
+    background-image: url("../../images/projects/Mangabg.jpg") ;
     background-size: 35em;
+    font-weight: bold;
 }
 
 .box2{
-    background-image: url("../../images/projects/backgroundClickMe.png") ;
-    background-size: 35em;
-}
-
-.box3{
-    background-image: url("../../images/projects/backgroundScoreKeeper.png") ;
-    background-size: 35em;
-}
-
-.box4{
-    background-image: url("../../images/projects/backgroundRandomColor.png") ;
-    background-size: 35em;
-}
-
-.box5{
-    background-image: url("../../images/projects/backgroundPokemon.png") ;
-    background-size: 35em;
-}
-
-.box6{
-    background-image: url("../../images/projects/backgroundFirstPortfolio.png") ;
-    background-size: 35em;
-}
-
-.box7{
-    background-image: url("../../images/projects/Screenshot 2022-07-31 at 19.51.35.png") ;
-    background-size: 35em;
-}
-
-.box8{
-    background-image: url("../../images/projects/Advise.png") ;
-    background-size: 35em;
-}
-
-.box8 p{
-    color: #cad2c5;
-}
-
-.box9{
     background-image: url("../../images/projects/CO2.png") ;
     background-size: 35em;
     font-weight: bold;
 }
 
+.box3{
+    background-image: url("../../images/projects/Advise.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+.box3 p{
+    color: #a4bcc2;
+}
+
+.box4{
+    background-image: url("../../images/projects/Screenshot 2022-07-31 at 19.51.35.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+.box5{
+    background-image: url("../../images/projects/backgroundFirstPortfolio.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+.box6{
+    background-image: url("../../images/projects/backgroundPokemon.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+.box7{
+    background-image: url("../../images/projects/backgroundRandomColor.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+.box8{
+    background-image: url("../../images/projects/backgroundScoreKeeper.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
+
+.box9{
+    background-image: url("../../images/projects/backgroundClickMe.png") ;
+    background-size: 35em;
+    font-weight: bold;
+}
+
 .box10{
-    background-image: url("../../images/projects/Mangabg.jpg");
+    background-image: url("../../images/projects/backgroundCandyMuseum.png");
     background-size: 30em;
     font-weight: bold;
 }
