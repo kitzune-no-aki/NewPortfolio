@@ -20,6 +20,7 @@ import Confluence from '../../images/skillsIcons/icons8-confluence-48.png'
 import Fresco from '../../images/skillsIcons/icons8-fresco-50.png'
 import SQL from '../../images/skillsIcons/icons8-sql-64.png'
 import IREB from '../../images/skillsIcons/icon_IREB.png'
+import Tableau from '../../images/skillsIcons/icons8-tableau-software-48.png'
 
 function Skills() {
     return(
@@ -65,7 +66,7 @@ function Skills() {
                         <div>BWL Einführung und Grundlagen</div>
                         <div>BWL Vertiefung</div>
                         <div>Mobile Software Engineering am Beispiel der Android- Plattform</div>
-                        <div>Computer Training</div>
+                        <div>Grundlagen der industriellen Softwaretechnik</div>
                         <div>Einführung in das wissenschaftliche Arbeiten</div>
                         <div>Kollaboratives Arbeiten</div>
                         <div>Gestaltung und Ergonomie von User Interfaces</div>
@@ -79,6 +80,13 @@ function Skills() {
                         <div>Qualitätssicherung im Softwareprozess</div>
                         <div>IT- Projektmanagement</div>
                         <div>Spezifikation</div>
+                        <div>Algorithmen, Datenstrukturen und Programmiersprachen</div>
+                        <div>Techniken und Methoden der agilen Softwareentwicklung</div>
+                        <div>Datenstruktur und Java- Klassenbibliothek</div>
+                        <div>Ethik und Nachhaltigkeit in der IT</div>
+                        <div>Software Engineering</div>
+                        <div>IT- Infrastruktur</div>
+                        <div>DevOps und Continuous Delivery</div>
                     </div>
                 </div>
             </div>
@@ -106,6 +114,7 @@ function Skills() {
                     <div className='images'>
                         <img title='Adobe AfterEffects' alt='Adobe AfterEffects' src={AE}/>
                         <img title='Sass' alt='Sass' src={Sass}/>
+                        <img title= 'Tableau' alt='Tableau' src={Tableau}/>
                     </div>
                 </div>
 
@@ -115,8 +124,9 @@ function Skills() {
                         B.Sc. Softwareentwicklung
                     </h3>
                     <div className='module'>
-                        <div>Algorithmen, Datenstrukturen und Programmiersprachen</div>
-                        <div>Techniken und Methoden der agilen Softwareentwicklung</div>
+                        <div>Programmierung von industriellen Informationssystemen mit Java EE</div>
+                        <div>IT- Servicemanagement</div>
+                        <div>Data Science und objektorientierte Programmierung mit Python</div>
                     </div>
                 </div>
             </div>

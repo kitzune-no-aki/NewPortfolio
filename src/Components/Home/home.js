@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css"
 import Rilakuma from '../../images/me/rilakuma.jpg'
+import Brown from '../../images/me/baer.jpeg'
 import Typewriter from "typewriter-effect";
 import {Link} from 'react-router-dom'
 
@@ -9,7 +10,7 @@ function Home() {
         <div className="wrapper">
             <div>
                 <div className="mainNavbar">
-                    <img alt="Foto von mir auf einer Bank mit Rilakuma" src={Rilakuma}/>
+                    <img alt="Foto von mir auf einer Bank mit Rilakuma" src={Brown}/>
                     <Link to="/skills">
                         <div className="nav skillsLink">Skills</div>
                     </Link>
@@ -33,7 +34,7 @@ function Home() {
                     <span>
                         <Typewriter
                             options={{
-                                strings: ['proud Wiener Linien employee', 'Creative', 'Curious', 'Optimist', 'Social Worker', 'Requirements Engineer'],
+                                strings: ['Creative', 'Curious', 'Optimist', 'Social Worker', 'Requirements Engineer', 'Runner'],
                                 autoStart: true,
                                 loop: true,
                                 pauseFor: 2000,

@@ -7,6 +7,7 @@ import Zeichnen from '../../images/Freizeit/icons8-drawing-64(1).png'
 import Fitness from '../../images/Freizeit/icons8-trail-running-64.png'
 import Anime from '../../images/Freizeit/icons8-totoro-100.png'
 import Husky from '../../images/Freizeit/icons8-dog-48.png'
+import Runner from '../../images/me/BA268BC1-912D-41C7-BE16-FBE0ECC75745_1_105_c.jpeg'
 
 
 import './me.css'
@@ -35,7 +36,7 @@ function Me(){
                 <img className='lebenslauf' alt='Frauenbild' src={Lebenslauf}/>
             </div>
             <div className='baerContainer'>
-                <img className='baer' alt='Person vor Riesenbären von line' src={Baer}/>
+                <img className='baer' alt='Person vor Riesenbären von line' src={Runner}/>
                 <div className='textBaer'>
                     <p>Wenn ich nicht gerade meine kreative Ader auf altmodische Weise mit Stift und Papier zum Leben erwecke
                         oder etwas moderner mit der Adobe Creative Cloud, finde ich meine Inspiration beim Eintauchen in andere Welten
@@ -44,7 +45,7 @@ function Me(){
                     </p>
                     <p>Doch falls du mich dort nicht antreffen kannst, befinde ich mich wahrscheinlich in den Wäldern, entweder
                         allein oder in Gesellschaft meines Huskys. Immer auf der Suche nach neuen Ideen und Abenteuern – das ist
-                        mein Lebensmotto. Denn wer braucht schon einen gewöhnlichen Spaziergang, wenn man durch die Wälder streifen
+                        mein Lebensmotto. Denn wer braucht schon einen gewöhnlichen Spaziergang, wenn man durch die Wälder laufen
                         kann, begleitet von der Magie der Natur und einem Husky an seiner Seite?
                     </p>
                     <div className='Icons'>
