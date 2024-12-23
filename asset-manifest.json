@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7e97005.css",
-    "main.js": "/static/js/main.1200a5ae.js",
+    "main.css": "/static/css/main.20bf9e6e.css",
+    "main.js": "/static/js/main.28bbec06.js",
     "static/media/portfolioFigma.mp4": "/static/media/portfolioFigma.af5ae01590d8c2355375.mp4",
     "static/media/Screenshot 2022-07-31 at 19.51.35.png": "/static/media/Screenshot 2022-07-31 at 19.51.35.0004423fb3c9e9aa24b4.png",
     "static/media/Lebenslauf.jpeg": "/static/media/Lebenslauf.bf00672aefca5f99bf0b.jpeg",
@@ -11,6 +11,7 @@
     "static/media/Karpador.jpg": "/static/media/Karpador.5090f4991adc0b4ba569.jpg",
     "static/media/backgroundPokemon.png": "/static/media/backgroundPokemon.112361ccd83325f604bc.png",
     "static/media/backgroundCandyMuseum.png": "/static/media/backgroundCandyMuseum.0c3fed88acfe1eadd9e4.png",
+    "static/media/BA268BC1-912D-41C7-BE16-FBE0ECC75745_1_105_c.jpeg": "/static/media/BA268BC1-912D-41C7-BE16-FBE0ECC75745_1_105_c.0f88674118208f851b02.jpeg",
     "static/media/backgroundScoreKeeper.png": "/static/media/backgroundScoreKeeper.0dacfab299d13dde4734.png",
     "static/media/Glumanda.jpeg": "/static/media/Glumanda.9af5721ed2abb5906bca.jpeg",
     "static/media/Pinguin (1).svg": "/static/media/Pinguin (1).6ddf16f160ec1319d987.svg",
@@ -24,11 +25,11 @@
     "static/media/MP.jpeg": "/static/media/MP.f9a707197960eca881f0.jpeg",
     "static/media/Advise.png": "/static/media/Advise.f890440535fd3005f0a6.png",
     "index.html": "/index.html",
-    "main.f7e97005.css.map": "/static/css/main.f7e97005.css.map",
-    "main.1200a5ae.js.map": "/static/js/main.1200a5ae.js.map"
+    "main.20bf9e6e.css.map": "/static/css/main.20bf9e6e.css.map",
+    "main.28bbec06.js.map": "/static/js/main.28bbec06.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e97005.css",
-    "static/js/main.1200a5ae.js"
+    "static/css/main.20bf9e6e.css",
+    "static/js/main.28bbec06.js"
   ]
 }
